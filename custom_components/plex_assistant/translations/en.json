@@ -24,7 +24,8 @@
         "title": "❱ Plex Assistant Advanced Options",
         "description": "[Documentation](https://github.com/maykar/plex_assistant)  |  [Forums](https://community.home-assistant.io/t/plex-assistant/)  |  [Troubleshooting](https://github.com/maykar/plex_assistant/blob/master/troubleshooting.md)  |  [Support Development](https://github.com/sponsors/maykar)\n\n**Read the [Advanced Config Docs](https://github.com/maykar/plex_assistant/tree/master#advanced-configuration) for how to format of the next 2 options.**",
         "data": {
-          "start_script": "Run a script to start an unavailable Plex client",
+          "default_cast": "Default cast device",
+		  "start_script": "Run a script to start an unavailable Plex client",
           "keyword_replace": "Replace keywords or phrases with your own",
           "jump_f": "Default jump forward amount in seconds.",
           "jump_b": "Default jump backward amount in seconds."

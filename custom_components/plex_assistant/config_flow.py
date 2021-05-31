@@ -86,6 +86,11 @@ class PlexAssistantOptionsFlowHandler(config_entries.OptionsFlow):
             step_id="init",
             data_schema=vol.Schema(
                 {
+					vol.Optional(
+						"default_cast"
+						description={"suggested_value": self.options.get("default_cast", "")},
+						default="",
+					): vol.In(get_devices(_self)),
                     vol.Optional(
                         "start_script",
                         description={"suggested_value": self.options.get("start_script", "")},
